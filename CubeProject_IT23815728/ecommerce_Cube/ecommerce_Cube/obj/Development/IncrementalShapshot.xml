@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ecommerce_Cube</Database>
+    <Server>DESKTOP-SI3TRQ2\MSSQLSERVER3</Server>
+    <ConnectionString>Data Source=DESKTOP-SI3TRQ2\MSSQLSERVER3;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>hWhA7SvHupgT+gkuRa7QU/9O+28=2026-03-31 11:09:03 AM2026-03-31 11:09:03 AM</TimeStamp>
+        <ID>
+          <String>ecommerce WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Jx55dzm9BKPJy+jC+eONsjmZH0g=2026-03-31 11:12:27 AM2026-03-31 11:12:26 AM</TimeStamp>
+        <ID>
+          <String>ecommerce WH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>c9J30Knk1iqoLZUBqUMcLp+fX0k=2026-03-31 6:28:04 PM2026-03-31 11:21:12 AM</TimeStamp>
+        <ID>
+          <String>DIM Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>FTBW2HTtw7Y7BTAmLud0icFXNSk=2026-03-31 5:21:56 PM2026-03-31 11:21:12 AM</TimeStamp>
+        <ID>
+          <String>DIM Review</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sVvLQPMN+k5h/TKUUvAVIFA+me8=2026-03-31 12:34:10 PM2026-03-31 11:21:12 AM</TimeStamp>
+        <ID>
+          <String>DIM Seller</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>24glOx0sJ1vfUmZW/Nd8XFuX93M=2026-03-31 12:42:45 PM2026-03-31 11:21:12 AM</TimeStamp>
+        <ID>
+          <String>DIM Product</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/WqJtmoE7Z9x12v2pRDY6UV0O6A=2026-03-31 5:24:09 PM2026-03-31 11:21:12 AM</TimeStamp>
+        <ID>
+          <String>DIM Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>eGAXMa5SlFxLwreVplxcZCp7ZW8=2026-03-31 6:23:04 PM2026-03-31 11:21:12 AM</TimeStamp>
+        <ID>
+          <String>DIM Payment</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>5pHgkGfpPvMJQ2gGBeohGe4oO9w=2026-03-31 5:24:09 PM2026-03-31 11:21:12 AMLkIbAZSDzIr4qRJE0lfWxGfz1qM=2026-03-31 11:21:12 AM2026-03-31 11:21:12 AM</TimeStamp>
+        <ID>
+          <String>ecommerce_Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>0fPSBO8i4gRiRwanqud7OX8LqTw=2026-03-31 10:59:42 AM2026-03-31 10:59:41 AM</TimeStamp>
+      <ID>
+        <String>ecommerce_Cube</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-03-31T12:58:09.966667Z</LastDeployed>
+</DeploymentSnapshot>
